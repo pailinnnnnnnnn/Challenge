@@ -11,12 +11,29 @@ width: 100%;
 height: 50px;
 text-align: center;
 `
-export const HeaderStyle = styled.div`
+export const HeaderStyle = styled.table`
 width: 100%;
-height: 100%;
+height: 250px;
+text-align: center;
+margin: 20px 0px 20px 0px;
+background-color: #ff4600;
+`
+export const MiddleStyle = styled.table`
+width: 100%;
+height: 400px;
+text-align: center;
+padding: 20px;
+margin: 20px 0px 20px 0px;
+background-color: #ff4600;
+`
+export const ImageGrid = styled.td`
+height: 250px;
 text-align: center;
 background-color: #ff4600;
-padding: 20px;
+`
+export const ProductStyle = styled.table`
+width: 100%;
+padding: 20%;
 `
 export const TextH1= styled.span`
 font-size: 40px;
@@ -31,12 +48,11 @@ color: #ffffff;
 text-align: center;
 margin: 10px;
 `
-export const MiddleStyle = styled.table`
-text-align: center;
-width: 100%;
-height: 200px;
+export const TextBody1= styled.span`
+font-size: 16px;
 `
-export const ImageGrid = styled.td`
-height: 150px;
-text-align: center;
+export const TextBody2= styled.span`
+font-size: 16px;
+color: #ff4600;
 `
+

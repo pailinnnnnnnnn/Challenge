@@ -8,6 +8,9 @@ class Grid extends Component {
       <table width="100%">
         <tr>
           <td><Product/></td>
+          <td><Product/></td>
+          <td><Product/></td>
+          <td><Product/></td>
         </tr>
       </table>
     );

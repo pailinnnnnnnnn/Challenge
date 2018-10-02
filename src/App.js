@@ -15,10 +15,14 @@ class App extends Component {
   render() {
     return (
       <Content> 
-          <Menu/>
-          <Header/>
-          <Middle/>
-          <Grid/>
+        <tr>
+          <td>
+            <Menu/>
+            <Header/>
+            <Middle/>
+            <Grid/>
+          </td>
+        </tr>   
       </Content>   
     );
   }
