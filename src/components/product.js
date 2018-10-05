@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import {ImageGrid} from './component';
-import {ProductStyle} from './component';
-import {TextBody1} from './component';
-import {TextBody2} from './component';
+import {ImageGrid,ProductTable} from './component';
+import {TextBody1,TextBody2} from './component';
+
 class Product extends Component {
   
   render() {
     return (
-        <ProductStyle>
+        <ProductTable>
             <tr>
-                <ImageGrid>image</ImageGrid>
+                <td>
+                    <ImageGrid>image</ImageGrid>
+                </td>     
             </tr>
             <tr>
                 <td>
@@ -19,7 +20,7 @@ class Product extends Component {
             <tr>
                 <td><TextBody2>Price</TextBody2></td>
             </tr>
-        </ProductStyle>
+        </ProductTable>
     );
   }
 }

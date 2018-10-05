@@ -6,32 +6,12 @@ height: 100%;
 font-family: Arial, Helvetica, sans-serif;
 padding: 5%;
 `
-export const MenuStyle = styled.table`
-width: 100%;
-height: 50px;
-text-align: center;
-`
-export const HeaderStyle = styled.table`
-width: 100%;
-height: 250px;
-text-align: center;
-margin: 20px 0px 20px 0px;
-background-color: #ff4600;
-`
-export const MiddleStyle = styled.table`
-width: 100%;
-height: 400px;
-text-align: center;
-padding: 20px;
-margin: 20px 0px 20px 0px;
-background-color: #ff4600;
-`
-export const ImageGrid = styled.td`
+export const ImageGrid = styled.div`
 height: 250px;
 text-align: center;
 background-color: #ff4600;
 `
-export const ProductStyle = styled.table`
+export const ProductTable = styled.table`
 width: 100%;
 padding: 20%;
 `

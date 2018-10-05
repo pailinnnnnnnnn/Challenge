@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { MiddleStyle } from '../components/component';
+import { MiddleTable } from './layout';
 class Middle extends Component {
-
 
   render() {
     return (
-     <MiddleStyle>
+     <MiddleTable>
        <tr>
          <td>
             image
@@ -17,7 +16,7 @@ class Middle extends Component {
             image
          </td>
        </tr>
-     </MiddleStyle>
+     </MiddleTable>
     );
   }
 }

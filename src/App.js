@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import {Content} from './components/component'
-import Menu from './components/menu'
-import Header from './layouts/header'
-import Middle from './layouts/middle'
-import Grid from './components/grid'
+import MenuBar from './components/Menu/MenuBar'
+import Header from './layouts/Header'
+import Middle from './layouts/Middle'
+import Grid from './components/Grid'
+import { Menu, Button } from 'semantic-ui-react'
+import Routes from './routes'
 
 
 class App extends Component {
@@ -14,16 +16,7 @@ class App extends Component {
 
   render() {
     return (
-      <Content> 
-        <tr>
-          <td>
-            <Menu/>
-            <Header/>
-            <Middle/>
-            <Grid/>
-          </td>
-        </tr>   
-      </Content>   
+      <Routes/>
     );
   }
 }
