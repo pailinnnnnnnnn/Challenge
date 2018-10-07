@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {HeaderTable} from './layout';
-import {TextH1,TextH2} from '../components/component';
+import {TextH1,TextH2} from '../component';
 class Header extends Component {
 
 
